@@ -1,0 +1,5 @@
+suffix="$1"
+shift
+for file in "$@"; do
+    mv "$file" "${file}${suffix}"
+done
