@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 suffix="$1"
 shift
 for file in "$@"; do
